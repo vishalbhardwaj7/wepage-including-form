@@ -1,0 +1,127 @@
+* {
+  box-sizing: border-box;
+  font-family: "Courier New", Courier, monospace;
+}
+body {
+  background-color: aqua;
+}
+h1,
+h3 {
+  text-align: center;
+}
+.main {
+  background-color: cornsilk;
+  width: 600px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  border: 2px solid gray;
+  padding: 16px 20px;
+  border-radius: 10px;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+}
+.personaldetails {
+  display: flex;
+  flex-direction: column;
+}
+.political,
+.essay {
+  display: flex;
+  flex-direction: column;
+}
+.personaldetails {
+  border: 1px solid grey;
+  padding: 10px 16px;
+  margin: 10px;
+  border-radius: 10px;
+}
+.personaldetails input,
+.personaldetails select {
+  width: 250px;
+}
+.political,
+.checkbox {
+  border: 1px solid grey;
+  padding: 10px 16px;
+  margin: 10px;
+  border-radius: 10px;
+}
+#submit {
+  width: 250px;
+  margin: auto;
+  margin-top: 20px;
+  height: 50px;
+  font-size: xx-large;
+  background-color: goldenrod;
+}
+.essay a {
+  text-decoration: none;
+  background-color: goldenrod;
+  width: 250px;
+  text-align: center;
+  height: 50px;
+  padding: 14px 16px;
+  margin: auto;
+  font-size: larger;
+  color: black;
+}
+p {
+  font-size: large;
+}
+a:hover {
+  background-color: aqua;
+}
+#two {
+  margin: auto;
+  font-size: larger;
+  margin-top: 20px;
+}
+#submit:hover {
+  background-color: aqua;
+}
+#explain,
+#details {
+  margin-top: 10px;
+}
+#explain {
+  margin-bottom: 10px;
+}
+textarea {
+  border-radius: 10px;
+}
+.personaldetails,
+.checkbox,
+.political,
+textarea {
+  transition: background 1s;
+}
+a,
+#submit,
+.footer a {
+  transition: background 0.3s;
+}
+.personaldetails:hover,
+.checkbox:hover,
+.political:hover,
+textarea:hover {
+  background-color: aqua;
+}
+.footer {
+  margin: auto;
+  margin-top: 40px;
+  margin-bottom: 10px;
+  height: 30px;
+}
+.footer a {
+  text-decoration: none;
+  background-color: goldenrod;
+  border-radius: 5px;
+  color: white;
+}
+.footer:hover a {
+  background-color: aqua;
+  color: black;
+}
